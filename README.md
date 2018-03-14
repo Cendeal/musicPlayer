@@ -118,9 +118,9 @@ class ListView
 - 3 Musiclist.h
 ---
     Name: Musiclist 
-	  Author: cendeal
-	  Date: 04/02/18 21:33
-	  Description: Musiclist类主要负责从外部存储器获取歌单，
+	Author: cendeal
+	Date: 04/02/18 21:33
+	Description: Musiclist类主要负责从外部存储器获取歌单，
 					 更新外部存储器的歌单，为MusicPlayer类
 					 提供歌曲路径、歌曲名..... 
 
@@ -228,5 +228,5 @@ int main(){
 ![mp3.gif](https://upload-images.jianshu.io/upload_images/4413333-f53879ec3796962d.gif?imageMogr2/auto-orient/strip)
 
 ## 6项目地址
-[musocPlayer By Cendeal](https://github.com/Cendeal/musocPlayer)
+[musicPlayer By Cendeal](https://github.com/Cendeal/musicPlayer)
 
