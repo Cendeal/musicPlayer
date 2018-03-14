@@ -1,0 +1,8 @@
+#ifndef HEAD
+#define HEAD	1
+#include "model/MusicPlayer.h"
+#include "view/MFrame.h"
+#include "model/MusicList.h"
+#include "view/ListView.h"
+#include"model/FileExplorer.h"
+#endif 
