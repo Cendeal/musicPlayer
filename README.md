@@ -80,7 +80,9 @@ class MFrame
 		int static border;
 };
 ```
+
 - 2 ListView.h
+
 ```
 //Name: ListView
 //Author: cendeal 
@@ -109,7 +111,9 @@ class ListView
 		int height;//列表的高度 
 };
 ```
+
 - 3 Musiclist.h
+
 ```
 //Name: Musiclist 
 //Author: cendeal
@@ -141,7 +145,9 @@ class MusicList
 
 };
 ```
+
 - 4 FileExplorer.h
+
 ```
 //Name: FileExplorer
 //Author: cendeal 
@@ -201,6 +207,7 @@ class PlayerSystem
 ```
 
 - 6 main.cpp
+
 ```
 //Name: main 
 //Author: cendeal
@@ -213,7 +220,6 @@ int main(){
 	return 0;
 }
 ```
----
 ## 5.示例演示
 
 ![mp3.gif](https://upload-images.jianshu.io/upload_images/4413333-f53879ec3796962d.gif)
