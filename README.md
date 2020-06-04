@@ -1,4 +1,6 @@
 > 这是一个比较简易的mp3播放器，基于ege,一个最简单的图形库，刚入门c/c++的同学可以尝试一下玩玩,入门槛非常低
+---
+
 ## 1.ege环境配置
 - [ege新手入门](http://xege.org/%e6%96%b0%e6%89%8b%e5%85%a5%e9%97%a8%e3%80%8e%e4%b8%80%e3%80%8fege%e7%9a%84%e4%bb%8b%e7%bb%8d%e3%80%81%e5%ae%89%e8%a3%85%e5%92%8c%e4%bd%bf%e7%94%a8.html)
 - [ege简单基础知识](http://xege.org/%e6%96%b0%e6%89%8b%e5%85%a5%e9%97%a8%e3%80%8e%e4%ba%8c%e3%80%8f%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%b8%80%e4%b8%aaege%e7%a8%8b%e5%ba%8f.html)
@@ -154,7 +156,6 @@ class MusicList
 	Description:FileExplorer为客户导入歌曲提供浏览本地电脑下的所有文件夹的入口,	
     仅提供浏览，不可以修改任何文件夹下的内容；可以获取指定后缀名的文件。
 
-
 ```
 class FileExplorer
 {
@@ -212,6 +213,7 @@ class PlayerSystem
 	Author: cendeal
 	Date: 05/02/18 00:09
 	Description: 主函数 
+
 ```
 #include "model/PlayerSystem.h"
 int main(){
@@ -220,7 +222,9 @@ int main(){
 	return 0;
 }
 ```
+
 ## 5.示例演示
+
 ![mp3.gif](https://upload-images.jianshu.io/upload_images/4413333-f53879ec3796962d.gif?imageMogr2/auto-orient/strip)
 
 ## 6.项目地址
