@@ -1,12 +1,8 @@
-
-标签： C++
-
----
-
 > 这是一个比较简易的mp3播放器，基于ege,一个最简单的图形库，刚入门c/c++的同学可以尝试一下玩玩,入门槛非常低
 ## 1.ege环境配置
 - [ege新手入门](http://xege.org/%e6%96%b0%e6%89%8b%e5%85%a5%e9%97%a8%e3%80%8e%e4%b8%80%e3%80%8fege%e7%9a%84%e4%bb%8b%e7%bb%8d%e3%80%81%e5%ae%89%e8%a3%85%e5%92%8c%e4%bd%bf%e7%94%a8.html)
 - [ege简单基础知识](http://xege.org/%e6%96%b0%e6%89%8b%e5%85%a5%e9%97%a8%e3%80%8e%e4%ba%8c%e3%80%8f%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%b8%80%e4%b8%aaege%e7%a8%8b%e5%ba%8f.html)
+
 ## 2.项目文件结构
 ```
 │  head//头文件导入
@@ -56,7 +52,7 @@
     Author: cendeal
     Date: 04/02/18 22:14
     Description:MFrame主要负责主播放界面的渲染，其中包括：进度条、时间计时器、歌曲名等 
-
+---
 
 ```
 class MFrame
