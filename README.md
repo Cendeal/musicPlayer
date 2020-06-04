@@ -230,7 +230,7 @@ int main(){
 ---
 ## 5.示例演示
 
-![mp3.gif](https://upload-images.jianshu.io/upload_images/4413333-f53879ec3796962d.gif?imageMogr2/auto-orient/strip)
+![mp3.gif](https://upload-images.jianshu.io/upload_images/4413333-f53879ec3796962d.gif)
 
 ## 6.项目地址
 [musicPlayer By Cendeal](https://github.com/Cendeal/musicPlayer)
