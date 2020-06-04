@@ -6,6 +6,7 @@
 - [ege简单基础知识](http://xege.org/%e6%96%b0%e6%89%8b%e5%85%a5%e9%97%a8%e3%80%8e%e4%ba%8c%e3%80%8f%e5%88%9b%e5%bb%ba%e7%ac%ac%e4%b8%80%e4%b8%aaege%e7%a8%8b%e5%ba%8f.html)
 
 ## 2.项目文件结构
+
 ```
 │  head//头文件导入
 │  main.cpp//主文件
@@ -42,21 +43,19 @@
         MFrame.cpp//基本框架
         MFrame.h
 ```
+
 ## 3.播放器原理
 > 导入歌曲：通过记录歌曲所在路径到一个文本文件下
-> 播放歌曲：通过路经来播放
-> 删除歌曲：不是实际的删除本地文件，只是把记录的路径从数据擦除，重新覆盖原来的记录文件
+播放歌曲：通过路经来播放
+删除歌曲：不是实际的删除本地文件，只是把记录的路径从数据擦除，重新覆盖原来的记录文件
 ## 4.关键代码文件
 - 1 MFrame.h
 
 ```
-    Name: MFrame 
-    Author: cendeal
-    Date: 04/02/18 22:14
-    Description:MFrame主要负责主播放界面的渲染，其中包括：进度条、时间计时器、歌曲名等 
-```
-
-```
+//Name: MFrame 
+//Author: cendeal
+//Date: 04/02/18 22:14
+//Description:MFrame主要负责主播放界面的渲染，其中包括：进度条、时间计时器、歌曲名等 
 class MFrame
 {
 	public:
@@ -83,14 +82,11 @@ class MFrame
 ```
 - 2 ListView.h
 ```
-	Name: ListView
-	Author: cendeal 
-	Date: 04/02/18 22:19
-	Description: ListView主要是负责列表视图渲染，主要是设置视图的样式 
+//Name: ListView
+//Author: cendeal 
+//Date: 04/02/18 22:19
+//Description: ListView主要是负责列表视图渲染，主要是设置视图的样式 
 
-```
----
-```
 class ListView
 {
 	public:
@@ -115,15 +111,12 @@ class ListView
 ```
 - 3 Musiclist.h
 ```
-    Name: Musiclist 
-	Author: cendeal
-	Date: 04/02/18 21:33
-	Description: Musiclist类主要负责从外部存储器获取歌单，
-					 更新外部存储器的歌单，为MusicPlayer类
-					 提供歌曲路径、歌曲名..... 
-```
----
-```
+//Name: Musiclist 
+//Author: cendeal
+//Date: 04/02/18 21:33
+//Description: Musiclist类主要负责从外部存储器获取歌单，
+//					 更新外部存储器的歌单，为MusicPlayer类
+//					 提供歌曲路径、歌曲名..... 
 class MusicList
 {
 	public:
@@ -149,15 +142,12 @@ class MusicList
 };
 ```
 - 4 FileExplorer.h
-```	
-    Name: FileExplorer
-	Author: cendeal 
-	Date: 04/02/18 21:38
-	Description:FileExplorer为客户导入歌曲提供浏览本地电脑下的所有文件夹的入口,	
-    仅提供浏览，不可以修改任何文件夹下的内容；可以获取指定后缀名的文件。
 ```
----
-```
+//Name: FileExplorer
+//Author: cendeal 
+//Date: 04/02/18 21:38
+//Description:FileExplorer为客户导入歌曲提供浏览本地电脑下的所有文件夹的入口,	
+//仅提供浏览，不可以修改任何文件夹下的内容；可以获取指定后缀名的文件。
 class FileExplorer
 {
 	public:
@@ -212,13 +202,10 @@ class PlayerSystem
 
 - 6 main.cpp
 ```
-	Name: main 
-	Author: cendeal
-	Date: 05/02/18 00:09
-	Description: 主函数 
-```
----
-```
+//Name: main 
+//Author: cendeal
+//Date: 05/02/18 00:09
+//Description: 主函数 
 #include "model/PlayerSystem.h"
 int main(){
 	PlayerSystem sys;
